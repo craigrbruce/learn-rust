@@ -1,0 +1,1 @@
+/home/craig/projects/learn-rust/linked-list/target/debug/liblinked_list.rlib: /home/craig/projects/learn-rust/linked-list/src/first.rs /home/craig/projects/learn-rust/linked-list/src/lib.rs /home/craig/projects/learn-rust/linked-list/src/second.rs
