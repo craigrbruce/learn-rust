@@ -1,14 +1,14 @@
-pub struct Iter<'a, T> {
-    next: Option<&'a Node<T>>,
+pub struct Iter<T> {
+    next: Option<&Node<T>>,
 }
 
-impl<'a, T> Iterator for Iter<'a, T> {
-    type Item = &'a T;
+impl<T> Iterator for Iter<T> {
+    type Item = &T;
 
-    fn next(&'a mut self) -> Option<Self::Item> {
+    fn next(&mut self) -> Option<Self::Item> {
         self.next.map(|node| {
-            self.next = node.next.map(|node| &'a node);
-            &'a node.elem;
+            self.next = node.next.map(|node| &node);
+            &node.elem;
         })
     }
 }
