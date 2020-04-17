@@ -1,6 +1,6 @@
 [package]
-name = "functional-rust"
-version = "0.1.0"
+name = "elevator"
+version = "1.0.0"
 authors = ["Craig Bruce <craig@craig-bruce.com>"]
 edition = "2018"
 
