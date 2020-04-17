@@ -1,5 +1,6 @@
 fn main() {
     let mut tree = Tree::new(1);
+
     tree.insert(2);
     tree.insert(3);
     tree.insert(4);
