@@ -80,6 +80,12 @@ mod test {
         tree.insert(2);
         tree.insert(3);
         tree.insert(4);
+
+        assert_eq!(tree.search(1), true);
+        assert_eq!(tree.search(2), true);
+        assert_eq!(tree.search(3), true);
+        assert_eq!(tree.search(4), true);
+        assert_eq!(tree.search(5), false);
     }
 }
 
