@@ -88,16 +88,3 @@ mod test {
         assert_eq!(tree.search(5), false);
     }
 }
-
-// pub fn power(a: u64, n: u64) {
-//     match n {
-//         0 => 1,
-//         _ => {
-//             let x: u64 = power(a, n / 2);
-//             if (n.is_even()) {
-//                 return x.mu
-//             }
-//             return a * (x * x);
-//         }
-//     }
-// }
